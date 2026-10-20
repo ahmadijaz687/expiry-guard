@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.8" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)" />
+
+  <!-- Navbar -->
+  <rect x="0" y="0" width="1200" height="70" fill="#0f172a" stroke="#334155" stroke-width="1" />
+  <circle cx="50" cy="35" r="16" fill="#059669" />
+  <text x="76" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="20" fill="#ffffff">Expiry<tspan fill="#10b981">Guard</tspan></text>
+  <rect x="420" y="16" width="360" height="38" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1" />
+  <text x="445" y="40" font-family="sans-serif" font-size="13" fill="#94a3b8">Overview</text>
+  <text x="540" y="40" font-family="sans-serif" font-size="13" fill="#94a3b8">Kitchen Stock</text>
+  <text x="655" y="40" font-family="sans-serif" font-size="13" fill="#94a3b8">Cook-First</text>
+  <rect x="720" y="20" width="70" height="30" rx="8" fill="#334155" />
+  <text x="735" y="40" font-family="sans-serif" font-weight="700" font-size="13" fill="#34d399">Impact</text>
+
+  <!-- Header -->
+  <text x="60" y="125" font-family="'Plus Jakarta Sans', sans-serif" font-size="28" font-weight="900" fill="#ffffff">Waste-Avoided Impact Tracker</text>
+  <text x="60" y="152" font-family="sans-serif" font-size="14" fill="#94a3b8">Quantified return on investment calculated from your household kitchen logs.</text>
+
+  <!-- Big 4 Metric Cards -->
+  <g transform="translate(60, 180)">
+    <!-- 1: $ Saved -->
+    <rect x="0" y="0" width="250" height="130" rx="18" fill="url(#cardGrad)" stroke="#10b981" stroke-width="1.5" />
+    <text x="25" y="40" font-family="sans-serif" font-size="12" font-weight="700" fill="#34d399">RESCUED VALUE</text>
+    <text x="25" y="85" font-family="'Plus Jakarta Sans', sans-serif" font-size="38" font-weight="900" fill="#ffffff">$68.40</text>
+    <text x="25" y="112" font-family="sans-serif" font-size="12" fill="#94a3b8">↑ Recovered grocery dollars</text>
+
+    <!-- 2: Food Weight -->
+    <rect x="275" y="0" width="250" height="130" rx="18" fill="url(#cardGrad)" stroke="#06b6d4" stroke-width="1.5" />
+    <text x="300" y="40" font-family="sans-serif" font-size="12" font-weight="700" fill="#38bdf8">FOOD DIVERTED</text>
+    <text x="300" y="85" font-family="'Plus Jakarta Sans', sans-serif" font-size="38" font-weight="900" fill="#ffffff">7.8 kg</text>
+    <text x="300" y="112" font-family="sans-serif" font-size="12" fill="#94a3b8">~17.2 lbs kept from landfills</text>
+
+    <!-- 3: Carbon Saved -->
+    <rect x="550" y="0" width="250" height="130" rx="18" fill="url(#cardGrad)" stroke="#14b8a6" stroke-width="1.5" />
+    <text x="575" y="40" font-family="sans-serif" font-size="12" font-weight="700" fill="#2dd4bf">CO₂e AVERTED</text>
+    <text x="575" y="85" font-family="'Plus Jakarta Sans', sans-serif" font-size="38" font-weight="900" fill="#ffffff">19.5 kg</text>
+    <text x="575" y="112" font-family="sans-serif" font-size="12" fill="#94a3b8">~48 passenger car-miles offset</text>
+
+    <!-- 4: Streak -->
+    <rect x="825" y="0" width="255" height="130" rx="18" fill="url(#cardGrad)" stroke="#f59e0b" stroke-width="1.5" />
+    <text x="850" y="40" font-family="sans-serif" font-size="12" font-weight="700" fill="#fbbf24">RESCUE STREAK</text>
+    <text x="850" y="85" font-family="'Plus Jakarta Sans', sans-serif" font-size="38" font-weight="900" fill="#ffffff">12 Days</text>
+    <text x="850" y="112" font-family="sans-serif" font-size="12" fill="#94a3b8">87.5% success rescue rate</text>
+  </g>
+
+  <!-- Detailed Table -->
+  <g transform="translate(60, 345)">
+    <rect x="0" y="0" width="1080" height="400" rx="20" fill="url(#cardGrad)" stroke="#334155" stroke-width="1" />
+    <text x="35" y="45" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="800" fill="#ffffff">Recent Kitchen Action Audit Log</text>
+
+    <!-- Table Header -->
+    <line x1="35" y1="70" x2="1045" y2="70" stroke="#334155" />
+    <text x="50" y="95" font-family="sans-serif" font-size="12" font-weight="700" fill="#64748b">ITEM NAME</text>
+    <text x="300" y="95" font-family="sans-serif" font-size="12" font-weight="700" fill="#64748b">OUTCOME</text>
+    <text x="500" y="95" font-family="sans-serif" font-size="12" font-weight="700" fill="#64748b">VALUE SAVED</text>
+    <text x="700" y="95" font-family="sans-serif" font-size="12" font-weight="700" fill="#64748b">WEIGHT RESCUED</text>
+    <text x="900" y="95" font-family="sans-serif" font-size="12" font-weight="700" fill="#64748b">CO₂e PREVENTED</text>
+
+    <!-- Row 1 -->
+    <line x1="35" y1="115" x2="1045" y2="115" stroke="#1e293b" />
+    <text x="50" y="145" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff">Atlantic Salmon Fillet</text>
+    <text x="300" y="145" font-family="sans-serif" font-size="13" font-weight="700" fill="#34d399">✓ Consumed (Cooked)</text>
+    <text x="500" y="145" font-family="sans-serif" font-size="13" fill="#cbd5e1">$11.50</text>
+    <text x="700" y="145" font-family="sans-serif" font-size="13" fill="#cbd5e1">400 g</text>
+    <text x="900" y="145" font-family="sans-serif" font-size="13" font-weight="700" fill="#2dd4bf">+2.88 kg</text>
+
+    <!-- Row 2 -->
+    <line x1="35" y1="170" x2="1045" y2="170" stroke="#1e293b" />
+    <text x="50" y="200" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff">Whole Milk (Half Gal)</text>
+    <text x="300" y="200" font-family="sans-serif" font-size="13" font-weight="700" fill="#34d399">✓ Consumed (Cooked)</text>
+    <text x="500" y="200" font-family="sans-serif" font-size="13" fill="#cbd5e1">$3.89</text>
+    <text x="700" y="200" font-family="sans-serif" font-size="13" fill="#cbd5e1">1,000 g</text>
+    <text x="900" y="200" font-family="sans-serif" font-size="13" font-weight="700" fill="#2dd4bf">+3.40 kg</text>
+
+    <!-- Row 3 -->
+    <line x1="35" y1="225" x2="1045" y2="225" stroke="#1e293b" />
+    <text x="50" y="255" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff">Avocado (Ripe)</text>
+    <text x="300" y="255" font-family="sans-serif" font-size="13" font-weight="700" fill="#34d399">✓ Consumed (Cooked)</text>
+    <text x="500" y="255" font-family="sans-serif" font-size="13" fill="#cbd5e1">$2.29</text>
+    <text x="700" y="255" font-family="sans-serif" font-size="13" fill="#cbd5e1">200 g</text>
+    <text x="900" y="255" font-family="sans-serif" font-size="13" font-weight="700" fill="#2dd4bf">+0.26 kg</text>
+
+    <!-- Row 4 (Discarded example) -->
+    <line x1="35" y1="280" x2="1045" y2="280" stroke="#1e293b" />
+    <text x="50" y="310" font-family="sans-serif" font-size="14" font-weight="700" fill="#94a3b8">Broccoli Crown</text>
+    <text x="300" y="310" font-family="sans-serif" font-size="13" font-weight="700" fill="#f87171">✕ Discarded</text>
+    <text x="500" y="310" font-family="sans-serif" font-size="13" fill="#94a3b8">$2.99</text>
+    <text x="700" y="310" font-family="sans-serif" font-size="13" fill="#94a3b8">400 g</text>
+    <text x="900" y="310" font-family="sans-serif" font-size="13" fill="#94a3b8">0 kg</text>
+
+    <!-- Footer export info -->
+    <line x1="35" y1="340" x2="1045" y2="340" stroke="#334155" />
+    <text x="50" y="375" font-family="sans-serif" font-size="12" fill="#64748b">Verified with 100% test coverage • Zero cloud tracking • Export or restore JSON anytime.</text>
+  </g>
+</svg>
