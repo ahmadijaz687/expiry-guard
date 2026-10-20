@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <!-- Background Shield -->
+  <path d="M50 12 L82 24 C82 56 68 76 50 88 C32 76 18 56 18 24 Z" fill="url(#shieldGrad)" />
+  <!-- Inner Shield Glow Accent -->
+  <path d="M50 17 L78 27.5 C78 54 65.5 72 50 83 C34.5 72 22 54 22 27.5 Z" fill="#064e3b" opacity="0.35" />
+  <!-- Fresh Sprout / Leaf Motif -->
+  <path d="M50 36 C50 36 62 40 62 54 C62 64 54 70 50 70 C46 70 38 64 38 54 C38 40 50 36 50 36 Z" fill="url(#leafGrad)" />
+  <!-- Leaf Central Stem -->
+  <path d="M50 44 L50 68" stroke="#064e3b" stroke-width="2.5" stroke-linecap="round" />
+  <!-- Small Energy Spark / Clock Spark -->
+  <circle cx="68" cy="28" r="4.5" fill="url(#glowGrad)" />
+  <circle cx="68" cy="28" r="6" stroke="#fef3c7" stroke-width="1.5" opacity="0.8" />
+</svg>
